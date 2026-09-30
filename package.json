@@ -1,0 +1,21 @@
+{
+  "name": "river-forest",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1 --port 3010",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1 --port 3010",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "next": "16.3.5",
+    "react": "19.2.1",
+    "react-dom": "19.2.1",
+    "ml-random-forest": "2.1.0"
+  },
+  "devDependencies": {
+    "vitest": "4.1.11"
+  }
+}
