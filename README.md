@@ -21,4 +21,3 @@ Applicazione autonoma React / Next.js derivata dai contenuti di R40. Il progetto
 Navigazione interna con frammenti URL, mantenendo il modello in memoria. Ricaricare azzera l'allenamento. La pagina #metodo, collegata da Allena la foresta, raccoglie il ruolo di BFS e la spiegazione generale. Nel grafo resta una miniatura statica della posizione iniziale. La partita manuale si azzera lasciando la pagina iniziale.
 
 Nessuna componente evolutiva è inclusa. BFS prepara gli esempi e verifica le distanze, ma non sceglie né corregge le mosse del modello.
-

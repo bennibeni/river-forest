@@ -1,1 +1,77 @@
-.river-scene{margin:0 0 24px;border:1px solid #dce3d8;border-radius:18px;background:#fff;overflow:hidden;text-align:left;width:100%}.river-scene-heading{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:22px 24px}.river-scene-heading span{font-size:10px;letter-spacing:2px;font-weight:700;color:#557465}.river-scene-heading h2{font-size:19px;color:#203731;margin:8px 0 0}.river-scene-heading p{font-size:12px;color:#65786b;margin:0}.river-scene-scroll{overflow-x:auto;padding:0 14px}.river-scene svg{display:block;width:100%;min-width:680px;height:auto}.river-person-label{font-family:Arial,sans-serif;font-size:12px;font-weight:600;fill:#344d40}.river-bank-label{font-family:Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;fill:#5b775b}.river-empty{font-family:Arial,sans-serif;font-size:13px;fill:#7f947b}.river-scene-help{margin:0;padding:14px 24px;font-size:12px;line-height:1.6;color:#6c7c74}@media(max-width:600px){.river-scene-heading{flex-direction:column;align-items:flex-start;padding:18px}.river-scene-help{padding:14px 18px}}
+.river-scene {
+  margin: 0 0 24px;
+  border: 1px solid #dce3d8;
+  border-radius: 18px;
+  background: #fff;
+  overflow: hidden;
+  text-align: left;
+  width: 100%;
+}
+.river-scene-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 22px 24px;
+}
+.river-scene-heading span {
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #557465;
+}
+.river-scene-heading h2 {
+  font-size: 19px;
+  color: #203731;
+  margin: 8px 0 0;
+}
+.river-scene-heading p {
+  font-size: 12px;
+  color: #65786b;
+  margin: 0;
+}
+.river-scene-scroll {
+  overflow-x: auto;
+  padding: 0 14px;
+}
+.river-scene svg {
+  display: block;
+  width: 100%;
+  min-width: 680px;
+  height: auto;
+}
+.river-person-label {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  fill: #344d40;
+}
+.river-bank-label {
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  fill: #5b775b;
+}
+.river-empty {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  fill: #7f947b;
+}
+.river-scene-help {
+  margin: 0;
+  padding: 14px 24px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #6c7c74;
+}
+@media (max-width: 600px) {
+  .river-scene-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 18px;
+  }
+  .river-scene-help {
+    padding: 14px 18px;
+  }
+}
